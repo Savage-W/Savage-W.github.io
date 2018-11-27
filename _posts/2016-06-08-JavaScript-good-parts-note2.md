@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "JavaScript 语言精粹笔记2-继承、数组、正则表达式"
+date:   2018-11-20 22:14:54
 categories: JavaScript
 tags:  继承 对象 原型 Array 正则
 ---
