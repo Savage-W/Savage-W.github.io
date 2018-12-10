@@ -11,11 +11,19 @@ tags:  JavaScript
 
 `Canvas`时`html `中非常重要的特性在学习它的同时也做了一个 关于雪花的`demo`;
 
-现在`html`中插入`canvas`元素
+先在`html`中插入`canvas`元素
 ```
 <canvas id="myCanvas" width="1200" height="600"></canvas>
 ```
+
+
+
+
+
+
+
 且设置它的宽高，接下来我们在`body`结束标签之前添加`JavaScript`，代码如下：
+
 ```
 var canvas = document.getElementById("myCanvas");//获取canvas元素
 var context = canvas.getContext("2d");//返回一个对象，该对象提供了用于在画布上绘画的方法和属性
